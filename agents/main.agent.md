@@ -1,5 +1,5 @@
 ---
-name: guardian-agent
+name: main
 description: Agent protecting intellectual property
 ---
 
