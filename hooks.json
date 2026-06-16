@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "hooks": {
+    "preToolUse": [
+      {
+        "type": "command",
+        "bash": "node ./bin/validator.mjs",
+        "cwd": ".",
+        "env": { "GUARDIAN_HOOK": "preToolUse" }
+      }
+    ],
+    "postToolUse": [
+      {
+        "type": "command",
+        "bash": "node ./bin/validator.mjs",
+        "cwd": ".",
+        "env": { "GUARDIAN_HOOK": "postToolUse" }
+      }
+    ],
+    "agentStop": [
+      {
+        "type": "command",
+        "bash": "node ./bin/validator.mjs",
+        "cwd": ".",
+        "env": { "GUARDIAN_HOOK": "agentStop" }
+      }
+    ],
+    "subagentStop": [
+      {
+        "type": "command",
+        "bash": "node ./bin/validator.mjs",
+        "cwd": ".",
+        "env": { "GUARDIAN_HOOK": "subagentStop" }
+      }
+    ]
+  }
+}

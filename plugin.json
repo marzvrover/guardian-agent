@@ -1,0 +1,14 @@
+{
+    "name": "Guardian Agent",
+    "description": "Guard outputs from your agent",
+    "version": "1.0.0",
+    "author": {
+        "name": "marz",
+        "email": "marzvrover@github.com"
+    },
+    "license": "MIT",
+    "agents": "./agents/",
+    "skills": "./skills/",
+    "hooks": "./hooks.json",
+    "mcpServers": "./.mcp.json"
+}
