@@ -1,5 +1,5 @@
 ---
-name: main
+name: guardian-agent
 description: Agent protecting intellectual property
 mcp-servers:
   oidc-test:
